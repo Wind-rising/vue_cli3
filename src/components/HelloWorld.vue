@@ -10,9 +10,6 @@ import { Button } from 'iview';
 import missui from './Test1.vue';
 
 export default {
-  data(){
-
-  },
   components:{
     Button,missui,
   }

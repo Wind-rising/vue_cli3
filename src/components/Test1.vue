@@ -70,8 +70,13 @@
 </template>
 
 <script>
-	export default {
-   }
+	import { Layout,Content, Breadcrumb,BreadcrumbItem,MenuItem,Submenu,Sider,Header,Menu,Icon} from 'iview';
+
+    export default {
+    components:{
+        Layout,Content, Breadcrumb,BreadcrumbItem,MenuItem,Submenu,Sider,Header,Menu,Icon
+    }
+}
 </script>
 
 <style>
